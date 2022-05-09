@@ -51,6 +51,9 @@ body {
 .card-body {
   background-color: #ffe3cc98; }
 
+.card-text {
+  font-size: 12px; }
+
 /*QUERIES INDEX*/
 @media screen and (min-width: 425px) {
   .index-header h1 {
