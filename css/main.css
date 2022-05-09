@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   text-align: center; }
-  .index-header .index-header h1 {
+  .index-header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@
     border-radius: 10px;
     border-width: 5px;
     width: 300px; }
-    .index-header .index-header h1 .index-header h2 {
+    .index-header h1 h2 {
       width: 300px;
       font-size: 20px; }
 
@@ -35,7 +35,7 @@ body {
 
 .slide {
   margin: 10px; }
-  .slide slide img {
+  .slide img {
     height: 75vh; }
 
 .grilla {
@@ -48,20 +48,16 @@ body {
   align-items: center;
   width: 300px; }
 
-.home-footer p {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  width: 300px;
-  font-size: 10px; }
+.card-body {
+  background-color: #ffe3cc98; }
 
 /*QUERIES INDEX*/
 @media screen and (min-width: 425px) {
   .index-header h1 {
     font-size: 35px;
     width: 400px; }
-  .index-header h2 {
-    width: 400px; }
+    .index-header h1 h2 {
+      width: 400px; }
   .home-main img {
     width: 400px; }
   .home-footer p {
@@ -72,31 +68,25 @@ body {
   .index-header h1 {
     font-size: 40px;
     width: 500px; }
-  .index-header h2 {
-    font-size: 25px;
-    width: 500px; }
+    .index-header h1 h2 {
+      font-size: 25px;
+      width: 500px; }
   .home-main img {
-    width: 500px; }
-  .home-footer p {
     width: 500px; } }
 
 @media screen and (min-width: 768px) {
   .index-header h1 {
     font-size: 45px;
     width: 700px; }
-  .index-header h2 {
-    font-size: 28px;
-    width: 700px; }
+    .index-header h1 h2 {
+      font-size: 28px;
+      width: 700px; }
   .home-main img {
-    width: 700px; }
-  .home-footer p {
     width: 700px; } }
 
 @media screen and (min-width: 1024px) {
   .index-header h1 {
     font-size: 50px;
-    width: 900px; }
-  .home-footer p {
     width: 900px; } }
 
 /*Estilo de mis paginas secundarias*/
@@ -107,7 +97,7 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 30px;
   font-style: oblique;
-  color: #b8170be2; }
+  color: #e02b14; }
 
 .secondary-subtitle {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -126,10 +116,9 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
-
-.links-recomendados a {
-  font-size: x-large;
-  color: black; }
+  .links-recomendados a {
+    font-size: x-large;
+    color: black; }
 
 .maps-container {
   margin-top: 30px;

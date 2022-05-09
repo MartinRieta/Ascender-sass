@@ -5,20 +5,20 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-        .index-header h1 {
+        h1{
             display: flex;
             justify-content: center;
             align-items: center;
             font-size: 30px;
-            color: #e02b14;
+            color: $color-title;
             border-style: double;
             border-color: black;
             border-radius: 10px;
             border-width: 5px; 
             width: 300px;
-                .index-header h2 {
-                    width: 300px;
-                    font-size: 20px;
+        h2 {
+            width: 300px;
+            font-size: 20px;
         }       
     }
 }

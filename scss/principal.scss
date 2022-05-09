@@ -1,5 +1,5 @@
+@import "variables";
 @import "index-header";
-
 
 * {
     margin: 0;
@@ -21,7 +21,7 @@ body {
 
 .slide {
     margin: 10px;
-        slide img {
+        img {
             height: 75vh;
     }    
 }
@@ -34,8 +34,6 @@ body {
     "home-footer";
 }
 
-
-
 .home-main img{
     display: flex;
     justify-content: center;
@@ -43,12 +41,8 @@ body {
     width: 300px;
 }
 
-.home-footer p {   
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    width: 300px;
-    font-size: 10px; 
+.card-body {
+    background-color: #ffe3cc98;
 }
 
 
@@ -60,10 +54,9 @@ body {
 .index-header h1 {
     font-size: 35px;
     width: 400px;
-}
-
-.index-header h2 {
-    width: 400px;
+        h2 {
+            width: 400px;
+    }
 }
     
 .home-main img{
@@ -81,20 +74,16 @@ body {
 .index-header h1 {
     font-size: 40px;
     width: 500px;
+        h2 {
+            font-size: 25px;
+            width: 500px;
+        }
 }
     
-.index-header h2 {
-    font-size: 25px;
-    width: 500px;
-}
-        
 .home-main img{
     width: 500px;
 }
     
-.home-footer p{
-    width: 500px;   
-}
 }
 
 @media screen and (min-width: 768px) {
@@ -102,19 +91,14 @@ body {
 .index-header h1 {
     font-size: 45px;
     width: 700px;
-}
-    
-.index-header h2 {
-    font-size: 28px;
-    width: 700px;
+        h2 {
+            font-size: 28px;
+            width: 700px;
+        }
 }
     
 .home-main img{
     width: 700px;
-}
-    
-.home-footer p{
-    width: 700px;   
 }
 }
 
@@ -124,14 +108,7 @@ body {
     font-size: 50px;
     width: 900px;
 }        
-
-
-        
-.home-footer p{
-    width: 900px;   
 }
-}
-
 
 
 /*Estilo de mis paginas secundarias*/
@@ -144,7 +121,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     font-style: oblique;
-    color: #b8170be2;    
+    color: $color-title;    
 }
 
 .secondary-subtitle {
@@ -167,11 +144,10 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.links-recomendados a {
-    font-size: x-large;
-    color: black;
+        a {
+            font-size: x-large;
+            color: black;
+        }
 }
 
 .maps-container {
